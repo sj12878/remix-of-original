@@ -12,14 +12,6 @@ import wdLogo from "@/assets/brands/wd.png";
 import numericLogo from "@/assets/brands/numeric.png";
 
 export const Route = createFileRoute("/brand-partners")({
-  head: () => ({
-    meta: [
-      { title: "Brand Partners — Heemo India" },
-      { name: "description", content: "Authorized partner for HP, HPE, Canon, Epson, LG, Samsung, Western Digital and Numeric — sourced through authorized channels." },
-      { property: "og:title", content: "Brand Partners — Heemo India" },
-      { property: "og:description", content: "Trusted OEM partnerships for institutional supply across India." },
-    ],
-  }),
   component: BrandPartnersPage,
 });
 

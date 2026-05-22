@@ -38,14 +38,6 @@ const brandPartners = [
 ];
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Heemo India — Institutional Technology & Electronics Supply" },
-      { name: "description", content: "Heemo India delivers high-quality IT Products and Appliances to government departments, corporates and educational institutions across India." },
-      { property: "og:title", content: "Heemo India — Institutional Technology & Electronics Supply" },
-      { property: "og:description", content: "Powering organizations with scalable technology and electronics supply." },
-    ],
-  }),
   component: HomePage,
 });
 

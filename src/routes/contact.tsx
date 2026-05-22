@@ -11,14 +11,6 @@ import { Toaster } from "@/components/ui/sonner";
 import { Phone, Mail, MapPin, CheckCircle2 } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
-  head: () => ({
-    meta: [
-      { title: "Contact Us — Heemo India" },
-      { name: "description", content: "Contact Heemo India for institutional IT and electronics supply enquiries. Based in Meerut, India." },
-      { property: "og:title", content: "Contact Heemo India" },
-      { property: "og:description", content: "Request a quote or share your requirement with our team." },
-    ],
-  }),
   component: ContactPage,
 });
 

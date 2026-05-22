@@ -7,14 +7,6 @@ import logisticsIcon from "@/assets/icons/logistics.png";
 import seamlessIcon from "@/assets/icons/seamless.png";
 
 export const Route = createFileRoute("/about")({
-  head: () => ({
-    meta: [
-      { title: "About Us — Heemo India" },
-      { name: "description", content: "Heemo India is a Meerut-based institutional supply company delivering IT Products and Appliances to government, corporate and educational clients." },
-      { property: "og:title", content: "About Heemo India" },
-      { property: "og:description", content: "Institutional supply expertise, compliance-driven operations and long-term partnerships." },
-    ],
-  }),
   component: AboutPage,
 });
 
